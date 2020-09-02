@@ -1,0 +1,42 @@
+.nav-bar{
+  margin: auto 200px;
+  position: absolute;
+  top: 23px;
+  right: 10px;
+  padding: 10px;
+}
+
+.nav-bar-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.nav-item{
+  border-radius: 15px;
+  margin: 2px auto;
+  width: 150px;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: #41444b;
+}
+
+.nav-item2{
+  border-radius: 15px;
+  border: 2px solid #3bb4c1;
+  margin: 0 auto;
+  width: 150px;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: #41444b;
+}
+
+.nav-item:hover{
+  color:white;
+  background-color: #3bb4c1;
+}
+
+.nav-item2:hover{
+  border: 2px solid aqua;
+  color:white;
+  background-color: #3bb4c1;
+}

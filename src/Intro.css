@@ -1,0 +1,29 @@
+.name{
+  text-align: center;
+  margin: 300px auto 0px auto ;
+  font-size: 3rem;
+  color: #41444b;
+}
+
+.job-title{
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #3bb4c1;
+  font-size: 2rem;
+}
+
+.icons{
+  margin-top: 70px;
+  display: block;
+}
+
+svg{
+  width: 30px;
+  color: #41444b;
+  margin: auto 15px;
+}
+
+svg:hover{
+  color: aqua;
+  margin: auto 15px;
+}

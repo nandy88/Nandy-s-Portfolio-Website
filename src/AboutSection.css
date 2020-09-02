@@ -1,0 +1,43 @@
+.about-section{
+  margin: 10px 200px 10px 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul{
+  margin-left: 50px;
+  width: 300px;
+  /* border: 2px solid #41444b; */
+  border-radius: 15px;
+  list-style: none;
+}
+
+.first-about-list-item{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #048998;
+  margin: 50px 150px auto 0px;
+}
+
+.about-list-item{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #048998;
+  margin: 25px 150px auto 0px;
+}
+
+
+.about-section-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 500px;
+  height: 250px;
+  border: 2px solid gainsboro;
+}
+
+.section-content{
+  
+}

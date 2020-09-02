@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color:white ;
+  position: fixed;
+  width: 100%;
+}
+
+h1{
+  font-size: 1.5em;
+  margin: 50px 0 50px 200px;
+  text-align: left;
+  color: #048998;
+  font-family: 'Lato', sans-serif;
+}
+
+.backdrop{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background-image: url("./backdrop.png");
+  background-size: cover;
+  margin: 0 auto;
+  width: 99%;
+  height: 700px;
+}

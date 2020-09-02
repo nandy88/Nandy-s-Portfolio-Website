@@ -1,0 +1,80 @@
+.nandys-projects{
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 200px 10px 200px;
+}
+
+article{
+  margin: 30px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2{
+  margin-top: 60px;
+  font-weight: 900;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #048998;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  margin: auto 0 auto 20px;
+  color: #41444b;
+}
+
+.img1{
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+  background-color: rgb(255, 250, 254);
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+
+.img1:hover{
+  border: 2px solid aqua;
+}
+
+
+.img2{
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+  background-color: mintcream;
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+
+.img2:hover{
+  border: 2px solid aqua;
+}
+
+.img3{
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+  background-color: white;
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+
+.img3:hover{
+  border: 2px solid aqua;
+}
+
+.img4{
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+  background-color: white;
+  object-fit: contain;
+  width: 250px;
+  height: 250px;
+}
+
+.img4:hover{
+  border: 2px solid aqua;
+}
