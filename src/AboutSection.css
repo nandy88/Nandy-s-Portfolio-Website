@@ -6,24 +6,40 @@
 }
 
 ul{
+  padding-inline-start: 80px;
   margin-left: 50px;
   width: 300px;
-  /* border: 2px solid #41444b; */
   border-radius: 15px;
   list-style: none;
 }
 
 .first-about-list-item{
+  border-bottom: 2px solid aqua;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #048998;
+  color: #3bb4c1;
+  margin: 50px 150px auto 0px;
+}
+
+.first-about-list-item-no-underline{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #3bb4c1;
   margin: 50px 150px auto 0px;
 }
 
 .about-list-item{
+  border-bottom: 2px solid aqua;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #048998;
+  color: #3bb4c1;
+  margin: 25px 150px auto 0px;
+}
+
+.about-list-item-no-underline{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #3bb4c1;
   margin: 25px 150px auto 0px;
 }
 
@@ -39,5 +55,5 @@ ul{
 }
 
 .section-content{
-  
+  padding: 50px;
 }

@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <a href=""><Logo className="logo" /></a>
+        <a href="http://nandy_rodrigo.surge.sh/"><Logo className="logo" /></a>
         <NavBar className="navbar"/>
       </header>
       <section className="backdrop">
@@ -26,7 +26,7 @@ function App() {
           <AboutSection />
         </main>
         <h1>Contact</h1>
-
+        
         <main className="contact">
         </main>
     </div>
