@@ -37,22 +37,33 @@
   }
 }
 
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #41444b;
+}
+
+a:visited:hover{
+  color: white;
+}
+
 body{
   background-color: white;
 }
 
-header{
+.header{
   background-color:white ;
   position: fixed;
   width: 100%;
 }
 
-h1{
-  font-size: 2em;
-  margin: 50px 0 50px 200px;
-  text-align: left;
-  color: #41444b;
-  font-family: 'Lato', sans-serif;
+.header-content{
+  margin: 10px auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .backdrop{
@@ -61,7 +72,41 @@ h1{
   grid-template-columns: 2fr 3fr;
   background-image: url("./backdrop.png");
   background-size: cover;
-  margin: 0 auto;
-  width: 99%;
+  width: 100%;
   height: 700px;
 }
+
+main{
+  width: 100%;
+}
+
+.project-title, .about-title, .contact-title{
+  width: 70%;
+  font-size: 2em;
+  margin: 50px auto;
+  text-align: left;
+  color: #41444b;
+  font-family: 'Lato', sans-serif;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .logo{
+    margin: 10px auto;
+  }
+  
+  .header-content{
+    display: block;
+  }
+
+  .backdrop{
+    height: 730px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+}
+
+

@@ -10,13 +10,24 @@
   text-shadow: -2px -2px aqua, -2px 2px aqua, 2px -2px aqua, 2px 2px aqua;
 }
 
-a{
-  text-decoration: none;
-}
-
-.logo{
-  margin: 10px 0 10px 200px;
+.logo-border{
+  align-items: left;
   border: 7px solid #3bb4c1;
   border-radius: 15px;
   width: 55px;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .logo-content{
+    margin: auto;
+  }
+
+  .logo-border{
+    margin: 20px auto 0 auto;
+  }
+
+  .logo-wrapper{
+    margin: 10px auto;
+  }
 }

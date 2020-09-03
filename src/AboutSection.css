@@ -1,46 +1,47 @@
-.about-section{
-  margin: 10px 200px 10px 200px;
+.nandys-about{
+  margin: 0 auto;
+  width: 75%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   font-family: 'Roboto', sans-serif;
 }
 
-ul{
-  padding-inline-start: 80px;
-  margin-left: 50px;
-  width: 300px;
+.about-list{
+  padding-inline-start: 55px;
   border-radius: 15px;
   list-style: none;
 }
 
 .first-about-list-item{
+  border-top: 2px solid aqua;
   border-bottom: 2px solid aqua;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #3bb4c1;
-  margin: 50px 150px auto 0px;
+  margin: 40px 150px 0 0;
 }
 
 .first-about-list-item-no-underline{
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #3bb4c1;
-  margin: 50px 150px auto 0px;
+  margin: 40px 150px 0 0;
 }
 
 .about-list-item{
+  border-top: 2px solid aqua;
   border-bottom: 2px solid aqua;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #3bb4c1;
-  margin: 25px 150px auto 0px;
+  margin: 25px 150px 0 0;
 }
 
 .about-list-item-no-underline{
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #3bb4c1;
-  margin: 25px 150px auto 0px;
+  margin: 25px 150px 0 0;
 }
 
 
@@ -49,11 +50,96 @@ ul{
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  width: 500px;
   height: 250px;
   border: 2px solid gainsboro;
+  width: 88%;
 }
 
 .section-content{
-  padding: 50px;
+  padding: 20px;
+  color: #41444b;
+}
+
+@media only screen and (max-width: 1240px) {
+
+  .first-about-list-item{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .about-list-item{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .about-list-item-no-underline{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .first-about-list-item-no-underline{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .nandys-about{
+    display: block;
+  }
+
+  .about-list{
+    display: grid;
+    padding-inline-start: unset;
+  }
+
+  .about-section-display{
+    margin: 0 auto;
+    width: 550px;
+  }
+
+  .nandys-about{
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+  .first-about-list-item{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .about-list-item{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .about-list-item-no-underline{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .first-about-list-item-no-underline{
+    width: 110px;
+    margin: 10px auto;
+  }
+
+  .nandys-about{
+    display: block;
+  }
+
+  .about-list{
+    display: grid;
+    padding-inline-start: unset;
+  }
+
+  .about-section-display{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .nandys-about{
+    display: block;
+  }
+
 }
