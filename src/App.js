@@ -19,7 +19,7 @@ function App() {
       </header>
 
       <section className="backdrop">
-        <aside className="cartoonized-image"><img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/f/f2/Iron_Man_Armor_-_Mark_LXXXV.png/revision/latest/top-crop/width/360/height/450?cb=20190401222437" alt=""/></aside>
+        <aside className="cartoonized-image"><img src="" alt=""/></aside>
         <Intro className="intro"/>
       </section>
 
