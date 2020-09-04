@@ -54,6 +54,7 @@ body{
 }
 
 .header{
+  top: 0;
   background-color:white ;
   position: fixed;
   width: 100%;
@@ -67,7 +68,11 @@ body{
 }
 
 .cartoonized-image{
-  
+  margin-top: 130px;
+  margin-left: 100px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
 }
 
 .backdrop{
@@ -95,6 +100,19 @@ main{
 
 
 @media only screen and (max-width: 1050px) {
+  
+  .cartoonized-image-section{
+    padding: 180px 0 0 0;
+  }
+
+  .cartoonized-image{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
   .logo{
     margin: 10px auto;
   }
@@ -104,12 +122,14 @@ main{
   }
 
   .backdrop{
-    height: 730px;
+    top: 100px;
+    height: 770px;
     display: block;
   }
 }
 
 @media only screen and (max-width: 660px) {
+  
 
 }
 

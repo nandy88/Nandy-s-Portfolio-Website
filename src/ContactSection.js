@@ -27,7 +27,7 @@ export default class ContactSection extends React.Component{
             <p><span>Mobile:</span> 0430 045 676</p>
           </div>
           <div className="email">
-            <span><FontAwesomeIcon href="" icon={faEnvelope} size="2x"/></span>
+            <a href="mailto:nandy.rodrigo@gmail.com"><span><FontAwesomeIcon href="" icon={faEnvelope} size="2x"/></span></a>
             <p><span>Email:</span> nandy.t.rodrigo@gmail.com</p>
           </div>
           <div className="github">

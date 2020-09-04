@@ -19,7 +19,7 @@ function App() {
       </header>
 
       <section className="backdrop">
-        <aside className="cartoonized-image"><img src="" alt=""/></aside>
+        <aside className="cartoonized-image-section"><img className="cartoonized-image" src="https://via.placeholder.com/500" alt=""/></aside>
         <Intro className="intro"/>
       </section>
 
