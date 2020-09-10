@@ -9,7 +9,7 @@ export default class Logo extends React.Component{
     return(
       <div className="logo-wrapper">
         <div className="logo-border">
-          <span className="logo-content">{logoContent}</span>
+          <a href="http://nandy_rodrigo.surge.sh/"><span className="logo-content">{logoContent}</span></a>
         </div>
       </div>
     )

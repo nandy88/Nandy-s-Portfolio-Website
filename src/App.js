@@ -13,7 +13,7 @@ function App() {
 
       <header className="header">
         <div className="header-content">
-          <a href="http://nandy_rodrigo.surge.sh/"><Logo className="logo" /></a>
+          <Logo className="logo" />
           <NavBar className="navbar"/>
         </div>
       </header>
