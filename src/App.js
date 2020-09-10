@@ -6,6 +6,7 @@ import Intro from './Intro'
 import ProjectTile from './ProjectTile'
 import AboutSection from './AboutSection'
 import ContactSection from './ContactSection'
+import ProfileImg from "./profile-picture.png"
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       </header>
 
       <section className="backdrop">
-        <aside className="cartoonized-image-section"><img className="cartoonized-image" src="https://via.placeholder.com/500" alt=""/></aside>
+        <aside className="cartoonized-image-section"><img className="cartoonized-image" src={ProfileImg} alt=""/></aside>
         <Intro className="intro"/>
       </section>
 

@@ -68,6 +68,7 @@ body{
 }
 
 .cartoonized-image{
+  width: 550px;
   border-radius: 15px;
   margin-top: 130px;
   margin-left: 100px;
@@ -101,7 +102,7 @@ main{
 }
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1150px) {
 
   .wrapper{
     padding: 0;

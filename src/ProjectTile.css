@@ -82,7 +82,7 @@ p{
   border: 2px solid aqua;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1150px) {
 
   .nandys-projects{
     width: 60%;
