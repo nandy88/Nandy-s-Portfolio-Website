@@ -6,6 +6,14 @@
   color: #41444b;
 }
 
+.download-resume-link:visited{
+  color: #41444b;
+}
+
+.download-resume-link:visited:hover{
+  color: white;
+}
+
 .downloadable-link{
   padding: 30px;
 }
