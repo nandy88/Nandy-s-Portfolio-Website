@@ -42,6 +42,10 @@ a{
   color: #41444b;
 }
 
+a:hover{
+  color: white;
+}
+
 a:visited{
   color: #41444b;
 }
