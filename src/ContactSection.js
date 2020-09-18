@@ -18,7 +18,7 @@ export default class ContactSection extends React.Component{
           <p className="contact-text">Quisque hendrerit, augue a aliquet dapibus, leo risus placerat lorem, eu porta magna orci eget est. Fusce dignissim ornare ante vel tincidunt. Sed commodo leo id sem aliquet interdum. Donec malesuada ullamcorper orci nec auctor. Phasellus consequat ligula in leo vehicula varius. Ut eget eros dolor. Nunc aliquet tempus nisl, sit amet pretium nunc dapibus eu. Suspendisse ac neque vitae quam pretium sollicitudin sagittis non leo. Vestibulum laoreet molestie nibh, quis vestibulum nunc laoreet eget. Integer eget enim imperdiet orci venenatis aliquam. Donec semper justo nec tellus elementum iaculis. Suspendisse lacinia, justo ut pulvinar rutrum, elit lorem facilisis sem, vel egestas sapien justo vitae felis. Nullam ultricies erat non purus iaculis dapibus.</p>
           <br/>
           <span className="download-resume-link">
-            <a href={ResumePdf} target="_blank">DOWLOAD RESUME</a>
+            <a href={ResumePdf} target="_blank" className="downloadable-link">DOWLOAD RESUME</a>
           </span>
         </div>
         <section className="contact-fields">

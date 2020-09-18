@@ -1,10 +1,13 @@
 .download-resume-link{
-  padding: 0 30px;
   border-radius: 15px;
   border: 2px solid #3bb4c1;
   font-weight: 900;
   font-family: 'Lato', sans-serif;
   color: #41444b;
+}
+
+.downloadable-link{
+  padding: 30px;
 }
 
 .contact-wrapper{
