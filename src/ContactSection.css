@@ -6,11 +6,10 @@
   color: #41444b;
 }
 
-.download-resume-link:visited{
+span:visited{
   color: #41444b;
 }
-
-.download-resume-link:visited:hover{
+span:visited:hover{
   color: white;
 }
 
