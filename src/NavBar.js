@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavBar.css'
+import {Link} from 'react-scroll'
 
 
 export default class NavBar extends React.Component{
@@ -8,9 +9,33 @@ export default class NavBar extends React.Component{
     return(
       <div className="nav-content">
         <div className="nav-bar">
-          <span className="nav-item">PROJECTS</span>
-          <span className="nav-item">ABOUT</span>
-          <span className="nav-item2">CONTACT</span>
+          <Link
+            className="nav-item"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-90}
+            duration= {500}
+            >PROJECTS</Link>
+          <Link
+              className="nav-item"
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration= {500}
+            >ABOUT</Link>
+          <Link
+              className="nav-item2"
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration= {500}
+            >CONTACT</Link>
         </div>
       </div>
     )

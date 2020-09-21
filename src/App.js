@@ -24,17 +24,17 @@ function App() {
         <Intro className="intro"/>
       </section>
 
-        <main className="projects">
+        <main className="projects" id="projects">
           <h1 className="project-title">Projects</h1>
           <ProjectTile />
         </main>
 
-        <main className="about">
+        <main className="about" id="about">
           <h1 className="about-title">About</h1>
           <AboutSection />
         </main>
 
-        <main className="contact">
+        <main className="contact" id="contact">
           <h1 className="contact-title">Contact</h1>
           <ContactSection />
         </main>
