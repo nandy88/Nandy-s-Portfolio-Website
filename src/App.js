@@ -10,11 +10,11 @@ import ProfileImg from "./profile-picture.png"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="App">
 
       <header className="header">
         <div className="header-content">
-          <Logo className="logo" />
+          <Logo className="logo"/>
           <NavBar className="navbar"/>
         </div>
       </header>
