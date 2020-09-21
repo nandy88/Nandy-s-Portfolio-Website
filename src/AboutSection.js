@@ -4,7 +4,7 @@ import './AboutSection.css'
 export default class AboutSection extends React.Component{
 
   state = {
-    content: "Morbi sed est vel tortor volutpat porta vitae eu metus. Sed molestie felis efficitur augue aliquam sagittis. Nullam mollis vulputate nisl, sit amet semper quam. Aenean ultricies nulla a mi tempus, nec feugiat urna elementum. Duis sed justo felis. Quisque turpis elit, tristique id tellus sit amet, euismod ornare lectus. Integer maximus dolor sit amet diam pretium, imperdiet lacinia elit ultricies. Aenean congue ligula vel ex iaculis, id consectetur tortor mattis. Nunc ac mauris neque. Nulla bibendum semper laoreet. Praesent non nibh vel ante laoreet porta vitae eget arcu. Morbi eget feugiat magna. Praesent eget elit sem.",
+    content: "I am a Software Engineer with experience in React, Sinatra, Node.js and much more. With a focus on creative problem solving, I strive to deliver exceptional results at every opportunity. Both intelligent and well mannered, my aim is to continuously improve my skills whilst working towards the best outcome for customers, clients and peers.",
     firstListItem: "first-about-list-item",
     secondListItem: "about-list-item-no-underline",
     thirdListItem: "about-list-item-no-underline",
@@ -13,7 +13,7 @@ export default class AboutSection extends React.Component{
 
   whoAmI = () => {
     this.setState({
-      content: "Morbi sed est vel tortor volutpat porta vitae eu metus. Sed molestie felis efficitur augue aliquam sagittis. Nullam mollis vulputate nisl, sit amet semper quam. Aenean ultricies nulla a mi tempus, nec feugiat urna elementum. Duis sed justo felis. Quisque turpis elit, tristique id tellus sit amet, euismod ornare lectus. Integer maximus dolor sit amet diam pretium, imperdiet lacinia elit ultricies. Aenean congue ligula vel ex iaculis, id consectetur tortor mattis. Nunc ac mauris neque. Nulla bibendum semper laoreet. Praesent non nibh vel ante laoreet porta vitae eget arcu. Morbi eget feugiat magna. Praesent eget elit sem.",
+      content: "I am a Software Engineer with experience in React, Sinatra, Node.js and much more. With a focus on creative problem solving, I strive to deliver exceptional results at every opportunity. Both intelligent and well mannered, my aim is to continuously improve my skills whilst working towards the best outcome for customers, clients and peers.",
       firstListItem: "first-about-list-item",
       secondListItem: "about-list-item-no-underline",
       thirdListItem: "about-list-item-no-underline",
@@ -24,7 +24,7 @@ export default class AboutSection extends React.Component{
 
   myStory = () => {
     this.setState({
-      content: "Aliquam luctus feugiat porttitor. Vestibulum urna sem, efficitur ac viverra ac, ornare et nibh. Pellentesque porta neque sem, et cursus magna hendrerit a. Aliquam lacinia condimentum felis quis suscipit. Nulla sit amet mauris vel nulla cursus mattis ut ut augue. Sed tincidunt massa ut ipsum dignissim eleifend. Fusce vitae justo ipsum. Suspendisse sagittis eleifend ullamcorper. Fusce luctus tellus at arcu volutpat malesuada.",
+      content: "As most of my working career thus far has been centered around Facilities Management, I have always worked as part of a larger team and have excelled in that environment. However, feeling unchallenged in my position and seeking new avenues of growth, I began looking into technology and was drawn to Software Engineering. Having previously completed a Materials Engineering degree at Monash University, I had already demonstrated the ability to learn advanced subjects which convinced me to undertake the Software Engineering Immersive course with General Assembly. Having completed this intensive program, I am now looking for new challenges in Software and Web development.",
       firstListItem: "first-about-list-item-no-underline",
       secondListItem: "about-list-item",
       thirdListItem: "about-list-item-no-underline",
@@ -34,7 +34,7 @@ export default class AboutSection extends React.Component{
 
   myInterests = () => {
     this.setState({
-      content: "Ut quis feugiat lorem. Quisque vestibulum eget nibh eu aliquam. Aenean quis aliquam lorem, in tempus velit. In tellus neque, interdum sit amet felis fermentum, tempus imperdiet lectus. Vivamus posuere nisi eu accumsan aliquet. Fusce gravida elit ac sagittis egestas. Praesent luctus ornare commodo. Mauris ut mauris tellus.",
+      content: "Software Development: HTML, CSS, Javascript, Node.js, React, SQL and Sinatra",
       firstListItem: "first-about-list-item-no-underline",
       secondListItem: "about-list-item-no-underline",
       thirdListItem: "about-list-item",
@@ -44,7 +44,7 @@ export default class AboutSection extends React.Component{
 
   myAspirations = () => {
     this.setState({
-      content: "Proin faucibus ut turpis et dictum. Suspendisse nec nisi sed sapien viverra luctus eget eu magna. Sed sed nulla augue. Nullam a porttitor odio. Pellentesque accumsan diam nibh. Cras sit amet dolor non justo dignissim hendrerit ac eget justo. Nulla facilisi. Praesent at sapien semper justo commodo euismod id et ante. Cras enim mauris, imperdiet sit amet mattis ac, accumsan eu lectus. Donec est ex, interdum non euismod nec, fermentum id ligula.",
+      content: "I am looking for developer role with a forward-thinking and innovative company with a people focused culture. I look forward to hearing from you.",
       firstListItem: "first-about-list-item-no-underline",
       secondListItem: "about-list-item-no-underline",
       thirdListItem: "about-list-item-no-underline",
