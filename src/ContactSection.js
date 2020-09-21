@@ -16,7 +16,6 @@ export default class ContactSection extends React.Component{
       <div className="contact-wrapper">
         <div className="resume-wrapper">
           <p className="contact-text"></p>
-          <br/>
           <span className="download-resume-link">
             <a href={ResumePdf} target="_blank" className="downloadable-link">DOWLOAD RESUME</a>
           </span>

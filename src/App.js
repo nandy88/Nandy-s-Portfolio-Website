@@ -39,6 +39,10 @@ function App() {
           <ContactSection />
         </main>
 
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <p>Built by Nandy Rodrigo using ReactJS © Nandy Rodrigo 2020. All rights reserved.</p>
+        <br/><br/><br/><br/><br/>
+
     </div>
   );
 }
