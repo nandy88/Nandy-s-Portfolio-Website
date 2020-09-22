@@ -51,5 +51,10 @@ span{
 
 @media only screen and (max-width: 500px) {
 
+  .mobile, .email, .github, .linkedin{
+    text-align: center;
+    display: block;
+  }
+
 }
 

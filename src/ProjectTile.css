@@ -92,5 +92,16 @@ p{
 }
 
 @media only screen and (max-width: 660px) {
+  .project-tile{
+    display: block;
+  }
+
+  .project-names{
+    margin-top: 20px;
+  }
+
+  .project-description{
+    margin-bottom: 40px;
+  }
 
 }

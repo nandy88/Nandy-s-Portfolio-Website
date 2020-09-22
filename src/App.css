@@ -140,8 +140,26 @@ main{
   }
 }
 
+.copyright{
+  margin: 0 auto;
+  width: 80%;
+}
+
 @media only screen and (max-width: 660px) {
-  
+
+  .project-title, .about-title, .contact-title{
+    padding-top: 20px;
+    width: 90%;
+    font-size: 2em;
+    margin: 50px auto;
+    text-align: left;
+    color: #41444b;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .cartoonized-image-section{
+    padding-top: 210px;
+  }  
 
 }
 
