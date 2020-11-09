@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ResumePdf from './Nandy-Rodrigo-CV-draft.pdf';
+import ResumePdf from './Nandy-Rodrigo-CV.pdf';
 import './ContactSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
